@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuranActivity"
+
+    >
+
+
+    <TextView
+        android:id="@+id/page_num"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="0.75"
+        android:background="@android:color/white"
+        android:drawableEnd="@drawable/more"
+        android:gravity="center"
+        android:rotation="180"
+        android:text="12333"
+        android:textSize="20dp" />
+
+    <com.codesgood.views.JustifiedTextView
+        android:id="@+id/quran_page_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="22dp"
+        android:layout_weight="10"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="2dp"
+        android:rotation="180"
+        android:scrollbars="vertical"
+        android:textAllCaps="false"
+        android:textIsSelectable="true"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="23dp"
+        android:layout_weight="0.75"
+        android:background="@android:color/white"
+        android:drawableEnd="@drawable/more"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:rotation="180"
+        android:text="12333"
+        android:textSize="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/sura_name_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="السورة" />
+
+        <TextView
+            android:id="@+id/section_name_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="الجزء" />
+    </LinearLayout>
+</LinearLayout>
+
+

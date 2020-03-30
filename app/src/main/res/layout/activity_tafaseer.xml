@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_tafaseer_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:id="@+id/tafaseer_connection_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/no_con_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/no_connection" />
+
+                <TextView
+                    android:id="@+id/no_con_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_con_img"
+                    android:layout_centerInParent="true"
+                    android:text="@string/check_connection" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/no_con_text"
+                    android:layout_centerInParent="true"
+                    android:text="@string/swipe_to_refresh_tafaseer" />
+
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/tafaseer_progress_bar"
+                style="@android:style/Widget.Holo.ProgressBar.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:id="@+id/tafseer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/right_arrow"
+                    android:id="@+id/prevVerse"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignRight="@id/verse_tafseer_text"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="125dp"
+                    android:id="@+id/nextVerse"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignLeft="@id/verse_tafseer_text"
+                    android:src="@drawable/left_arrow"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textSize="22dp"
+                    android:id="@+id/verse_tafseer_text"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_below="@id/verse_tafseer_text"
+                    android:id="@+id/verse_page_sura_num"
+                    android:layout_marginBottom="5dp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/verse_page_sura_num"
+                    android:id="@+id/tafaseer_layout"
+                    >
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tafaseer_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="@android:color/white"
+                    app:tabMode="scrollable"
+                    app:tabSelectedTextColor="@android:color/white"
+                    app:tabTextColor="@android:color/white" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/tafaseer_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tafaseer_tabs"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />\
+                </RelativeLayout>
+            </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

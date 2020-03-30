@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sura_vs_verse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/bordered_edit_text"
+        android:gravity="center"
+        android:onClick="suravsverse"
+        android:padding="5dp"
+        android:text="السور مقابل الآيات" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/makki_vs_madani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="makkivsmadani"
+
+        android:padding="5dp"
+        android:text="المكي مقابل المدني" />
+
+    <TextView
+        android:id="@+id/subject_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sura_vs_verse"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/suraandverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/subject_text"/>
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/suraandverse"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white" />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/idPieChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/suraandverse"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

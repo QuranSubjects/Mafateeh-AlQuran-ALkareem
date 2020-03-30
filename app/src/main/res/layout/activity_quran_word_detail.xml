@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuranWordDetail"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="22dp"
+        />
+<TextView
+    android:layout_below="@id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/meaning"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:layout_below="@id/meaning"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line"
+        android:background="@android:color/black"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/title2"
+        android:textSize="22dp"
+        android:layout_below="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nتفصيل المعنى:  "/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:textSize="20dp"
+        android:layout_below="@id/title2"/>
+    </RelativeLayout>
+</ScrollView>
+

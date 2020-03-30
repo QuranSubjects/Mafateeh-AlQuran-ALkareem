@@ -1,0 +1,6 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:foreground="?attr/selectableItemBackground"/>
+    <stroke android:width="1dip" android:color="@color/colorPrimaryDark"/>
+</shape>

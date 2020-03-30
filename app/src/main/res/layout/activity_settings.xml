@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/sorting_options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="start|center_vertical"
+            android:layout_marginStart="5dp"
+            android:onClick="showSortingOptions"
+            android:text="@string/verses_sort"
+            android:textSize="18dp" />
+
+
+        <RadioGroup
+            android:id="@+id/sorting_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/qur2ani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_quran"
+                android:textSize="16dp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/alphabetical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_alphabet"
+                android:textSize="16dp" />
+
+            <RadioButton
+
+                android:id="@+id/makki_madani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_makki_madani"
+                android:textSize="16dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/chart"
+        android:layout_marginStart="5dp"
+        android:textSize="18dp"
+android:onClick="chart"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:text="@string/statistics" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:text="@string/help"
+        android:onClick="help"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black" />
+
+</LinearLayout>

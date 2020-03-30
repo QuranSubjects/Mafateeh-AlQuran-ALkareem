@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lenovo.quransubjectsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:30:5-76
+12-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:30:22-73
+13
+14    <application
+14-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:7:5-64:19
+15        android:name="com.orm.SugarApp"
+15-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:8:9-40
+16        android:allowBackup="true"
+16-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:9:9-35
+17        android:debuggable="true"
+18        android:icon="@drawable/mafatihcircle"
+18-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:10:9-47
+19        android:label="@string/app_name"
+19-->[de.blox:graphview:0.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b6f03a1c213fee7bad6af912daa103f8\graphview-0.3.0\AndroidManifest.xml:13:9-41
+20        android:roundIcon="@drawable/mafatihcircle"
+20-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:11:9-52
+21        android:supportsRtl="true"
+21-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:13:9-40
+24        <meta-data
+24-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:14:9-16:48
+25            android:name="DATABASE"
+25-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:15:13-36
+26            android:value="sugar_example.db" />
+26-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:16:13-45
+27        <meta-data
+27-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:17:9-19:33
+28            android:name="VERSION"
+28-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:18:13-35
+29            android:value="4" />
+29-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:19:13-30
+30        <meta-data
+30-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:20:9-22:36
+31            android:name="QUERY_LOG"
+31-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:21:13-37
+32            android:value="true" />
+32-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:22:13-33
+33        <meta-data
+33-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:23:9-25:67
+34            android:name="DOMAIN_PACKAGE_NAME"
+34-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:24:13-47
+35            android:value="com.example.lenovo.quransubjectsapp" />
+35-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:25:13-64
+36
+37        <activity
+37-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:27:9-36:20
+38            android:name="com.example.lenovo.quransubjectsapp.MainActivity"
+38-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:28:13-41
+39            android:screenOrientation="portrait"
+39-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:29:13-49
+40            android:windowSoftInputMode="adjustPan|adjustResize" >
+40-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:30:13-65
+41            <intent-filter>
+41-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:31:13-35:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:32:17-69
+42-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:32:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:34:17-77
+44-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:34:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:37:9-40:68
+48            android:name="com.example.lenovo.quransubjectsapp.VersesActivity"
+48-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:38:13-43
+49            android:screenOrientation="portrait"
+49-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:39:13-49
+50            android:windowSoftInputMode="adjustPan|adjustResize" />
+50-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:40:13-65
+51        <activity
+51-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:41:9-43:52
+52            android:name="com.example.lenovo.quransubjectsapp.TafaseerActivity"
+52-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:42:13-45
+53            android:screenOrientation="portrait" />
+53-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:43:13-49
+54        <activity
+54-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:44:9-47:68
+55            android:name="com.example.lenovo.quransubjectsapp.SettingsActivity"
+55-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:45:13-45
+56            android:theme="@style/NoTitleDialog"
+56-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:46:13-49
+57            android:windowSoftInputMode="adjustPan|adjustResize" />
+57-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:47:13-65
+58        <activity
+58-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:48:9-51:68
+59            android:name="com.example.lenovo.quransubjectsapp.HelpActivity"
+59-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:49:13-41
+60            android:screenOrientation="portrait"
+60-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:50:13-49
+61            android:windowSoftInputMode="adjustPan|adjustResize" />
+61-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:51:13-65
+62        <activity
+62-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:52:9-55:68
+63            android:name="com.example.lenovo.quransubjectsapp.ChartActivity"
+63-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:53:13-42
+64            android:screenOrientation="portrait"
+64-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:54:13-49
+65            android:windowSoftInputMode="adjustPan|adjustResize" />
+65-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:55:13-65
+66        <activity
+66-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:56:9-58:52
+67            android:name="com.example.lenovo.quransubjectsapp.QuranActivity"
+67-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:57:13-42
+68            android:screenOrientation="portrait" />
+68-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:58:13-49
+69        <activity android:name="com.example.lenovo.quransubjectsapp.SubjectTreeActivity" />
+69-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:59:9-57
+69-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:59:19-54
+70        <activity
+70-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:60:9-62:52
+71            android:name="com.example.lenovo.quransubjectsapp.WordMeaningDialog"
+71-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:61:13-46
+72            android:theme="@style/NoTitleDialog" />
+72-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:62:13-49
+73        <activity android:name="com.example.lenovo.quransubjectsapp.QuranWordDetail" />
+73-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:63:9-62
+73-->D:\Android Apps\QuranSubjectsApp\app\src\main\AndroidManifest.xml:63:19-50
+74
+75        <provider
+75-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:33:9-37:40
+76            android:name="com.amitshekhar.DebugDBInitProvider"
+76-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:34:13-63
+77            android:authorities="com.example.lenovo.quransubjectsapp.DebugDBInitProvider"
+77-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:35:13-71
+78            android:enabled="true"
+78-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:36:13-35
+79            android:exported="false" />
+79-->[com.amitshekhar.android:debug-db:1.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\540145cfad31dfeee454b644eb5de09d\debug-db-1.0.4\AndroidManifest.xml:37:13-37
+80        <provider
+80-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35a8870dddb00d056bfdba8d1b29e384\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+81            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+81-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35a8870dddb00d056bfdba8d1b29e384\extensions-1.1.1\AndroidManifest.xml:24:13-83
+82            android:authorities="com.example.lenovo.quransubjectsapp.lifecycle-trojan"
+82-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35a8870dddb00d056bfdba8d1b29e384\extensions-1.1.1\AndroidManifest.xml:25:13-68
+83            android:exported="false"
+83-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35a8870dddb00d056bfdba8d1b29e384\extensions-1.1.1\AndroidManifest.xml:26:13-37
+84            android:multiprocess="true" />
+84-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\35a8870dddb00d056bfdba8d1b29e384\extensions-1.1.1\AndroidManifest.xml:27:13-40
+85    </application>
+86
+87</manifest>

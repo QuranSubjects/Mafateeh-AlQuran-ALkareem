@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".VersesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/mafateeh_logo"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_above="@+id/search_layout"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/mafatih_logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/quranInstall"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:layout_below="@id/mafateeh_logo"
+            android:layout_centerHorizontal="true">
+            <com.daimajia.numberprogressbar.NumberProgressBar
+                android:id="@+id/number_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/NumberProgressBar_Passing_Green"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جاري تحميل القرآن الكريم \nالرجاء الإنتظار"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <com.victor.loading.book.BookLoading
+            android:id="@+id/bookloading"
+            android:padding="8dp"
+            android:layout_width="150dp"
+            android:rotation="180"
+            android:layout_height="100dp"
+            android:visibility="visible"
+            app:loading_color="@color/colorPrimaryDark"
+            android:layout_below="@id/mafateeh_logo"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/motabiq_search_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/search_layout"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/search"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/main_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/search_layout"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/bordered_edit_text"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/search_progresss_bar"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="30dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/clear_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:elevation="1dp"
+                android:src="@drawable/clear"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/quran_subject_search_text_view"
+                style="@style/editText"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="right|top"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:visibility="gone"
+                android:hint="@string/choose_search_word"
+                android:padding="8dp"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:id="@+id/search_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quran_subject_search_text_view"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/horizontal_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/verses_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    app:tabGravity="fill"
+                    app:tabSelectedTextColor="@color/colorPrimary"
+                    app:tabTextColor="@android:color/black">
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TabLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search_kind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quran_subject_search_text_view"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/horizontal_line_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary" />
+
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/search_kind_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    app:tabGravity="fill"
+                    app:tabSelectedTextColor="@color/colorPrimary"
+                    app:tabTextColor="@android:color/black">
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/subject_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subject" />
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/word_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusedByDefault="true"
+
+                        android:text="@string/word" />
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/verse_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/verse" />
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/sura_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sura" />
+                </android.support.design.widget.TabLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/home_page_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/verses_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/verses_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="?android:attr/actionBarSize"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </LinearLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floating_tree_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/fab_margin"
+                android:elevation="3dp"
+                android:onClick="toggleDrawer"
+                android:visibility="gone"
+                app:borderWidth="3dp"
+                app:backgroundTint="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/tree_logo" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/connection_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/no_con_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/no_connection" />
+
+            <TextView
+                android:id="@+id/no_con_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_con_img"
+                android:layout_centerInParent="true"
+                android:text="@string/check_connection" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_con_text"
+                android:layout_centerInParent="true"
+                android:text="@string/swipe_to_refresh" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

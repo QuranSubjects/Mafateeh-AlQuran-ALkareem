@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مفاتيح القرآن الكريم</string>
+    <string name="choose_search_word">إختر موضوعا من أصل 6000 موضوع للبحث...</string>
+    <string name="search">بحث</string>
+    <string name="check_connection">مشكلة بإتصالك بالإنترنت</string>
+    <string name="titles">المواضيع الآباء</string>
+    <string name="subtitle">المواضيع الأبناء</string>
+    <string name="subject">موضوع</string>
+    <string name="noDataFound">لا يوجد معلومات</string>
+    <string name="no_titles_found">لا يوجد مواضيع آباء لهذا الموضوع</string>
+    <string name="no_subtitles_found">لا يوجد مواضيع أبناء لهذا الموضوع</string>
+    <string name="amthal">التفسير الأمثل</string>
+    <string name="meezan">تفسير الميزان</string>
+    <string name="majmaa_albayan">تفسير مجمع البيان</string>
+    <string name="altibyan_fi_tafseer_alqoran">التبيان في تفسير القرآن</string>
+    <string name="altabari">تفسير الطبري</string>
+    <string name="alrazi">تفسير الرازي</string>
+    <string name="altahreer_waltanweer_libn_ashoor">التحرير والتنوير لإبن عشور</string>
+    <string name="ibn_kaseer">تفسير إبن كثير</string>
+    <string name="suras">السور</string>
+    <string name="verses">الآيات</string>
+    <string name="subject_motafarri3at">متفرعات الموضوع</string>
+    <string name="word">كلمة</string>
+    <string name="verse">آية</string>
+    <string name="sura">سورة</string>
+    <string name="search_sura">إبحث عن سورة...</string>
+    <string name="search_verse">إبحث عن آية...</string>
+    <string name="search_word">إبحث عن كلمة...</string>
+    <string name="swipe_to_refresh">إسحب الصفحة نزولاً لإعادة طلب الآيات</string>
+    <string name="swipe_to_refresh_tafaseer">إسحب الصفحة نزولاً لإعادة طلب التفاسير</string>
+    <string name="sort_quran">ترتيب قرآني</string>
+    <string name="sort_alphabet">ترتيب ألفبائي</string>
+    <string name="sort_makki_madani">ترتيب مكي-مدني</string>
+    <string name="verses_sort">ترتيب الآيات</string>
+    <string name="statistics">إحصاءات</string>
+    <string name="help">مساعدة</string>
+    <string name="subject_tree">شجرة المواضيع</string>
+</resources>
