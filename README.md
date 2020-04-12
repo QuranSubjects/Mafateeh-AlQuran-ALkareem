@@ -1,5 +1,5 @@
 
-![Logo] (Logo.png)
+![Logo](Logo.png)
 
 # Name
 - Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
