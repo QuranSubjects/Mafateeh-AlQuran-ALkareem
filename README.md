@@ -1,5 +1,5 @@
 
-![Test Image 1](logo.png)
+![Test Image 1](https://github.com/QuranSubjects/Mafateeh-AlQuran-ALkareem/Pictures/logo.png)
 
 # Name
 Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
