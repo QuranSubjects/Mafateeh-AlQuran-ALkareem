@@ -2,8 +2,8 @@
 ![Test Image 1](https://github.com/QuranSubjects/Mafateeh-AlQuran-ALkareem/Pictures/Logo.png)
 
 # Name
-Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
-مفاتيح القرآن الكريم - محرك بحث موضوع للقرآن الكريم
+- Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
+مفاتيح القرآن الكريم - محرك بحث موضوع للقرآن الكريم- 
 
 # Description
 
