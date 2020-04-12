@@ -29,7 +29,7 @@ Please open an issue first to discuss what you would like to change.
 # Acknowledgment
 
 # Screenshots
-![screen1](screen1.jpg)
+![screen1](Screen1.jpg)
 ![screen2](screen2.jpg)
 ![screen21](screen21.jpg)
 
