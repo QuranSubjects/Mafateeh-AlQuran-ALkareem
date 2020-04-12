@@ -2,7 +2,7 @@
 ![Logo](Logo.png)
 
 # Name
-- Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
+- Mafateeh-AlQuran-ALkareem - Search Engine for the Holy Quran based 
 - Arabic: مفاتيح القرآن الكريم - محرك بحث موضوعي للقرآن الكريم  
 
 # Description
@@ -24,7 +24,10 @@ This distinguished Quranic App is capable of searching the Holy Quran for a spec
 ### Try some of these features @ www.moslim.com
 
 # Contributing
-Please open an issue first to discuss what you would like to change.
+Please open an issue first to discuss what you would like to change before beginning implementation.
+Contributions are what make the open source community an amazing place to learn, inspire, and develop together. The contributions you make are appreciated.
+The database is still private, we will not share complete dump. A mini version is ready for contributing.
+May Allah reward all the awesome Contributors...
 
 # Acknowledgment
 
