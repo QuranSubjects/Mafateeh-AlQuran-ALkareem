@@ -29,9 +29,9 @@ Please open an issue first to discuss what you would like to change.
 # Acknowledgment
 
 # Screenshots
-![screen1](screen1.png)
-![screen2](screen2.png)
-![screen21](screen21.png)
+![screen1](screen1.jpg)
+![screen2](screen2.jpg)
+![screen21](screen21.jpg)
 
 # License
 - This project is distributed under the Apache license version 2.0 (see the LICENSE file in the project root).
