@@ -3,7 +3,7 @@
 
 # Name
 - Mafateeh-AlQuran-ALkareem - Objective Search Engine for the Holy Quran
-مفاتيح القرآن الكريم - محرك بحث موضوع للقرآن الكريم - 
+- Arabic: مفاتيح القرآن الكريم - محرك بحث موضوع للقرآن الكريم  
 
 # Description
 
