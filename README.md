@@ -1,7 +1,7 @@
 
 ![Logo](Logo.png)
 
-# Name
+# Project Name
 - Mafateeh-AlQuran-ALkareem - Search Engine for the Holy Quran based 
 - Arabic: مفاتيح القرآن الكريم - محرك بحث موضوعي للقرآن الكريم  
 
@@ -24,18 +24,19 @@ This distinguished Quranic App is capable of searching the Holy Quran for a spec
 ### Try some of these features @ www.moslim.com
 
 # Contributing
-Please open an issue first to discuss what you would like to change before beginning implementation.
-Contributions are what make the open source community an amazing place to learn, inspire, and develop together. The contributions you make are appreciated.
-The database is still private, we will not share complete dump. A mini version is ready for contributing.
-May Allah reward all the awesome Contributors...
+- Your valuable contributions are highly appreciated.
+- Please open an issue first to discuss what you would like to change before beginning implementation.
+- Currently, the database is still private, we will not share complete dump. A mini version is ready for contributing.
+- May Allah reward all the awesome Contributors...
 
 # Acknowledgment
+We would like to acknowledge the help of all the people involved in this project whom, without their support, this project would not have become a reality.
+
+# License
+- This project is distributed under the Apache license version 2.0 (see the LICENSE file in the project root).
+- By submitting a pull request to this project, you agree to license your contribution under the Apache license version 2.0 to this project.
 
 # Screenshots
 ![screen1](Screen1.jpg)
 ![screen2](screen2.jpg)
 ![screen21](screen21.jpg)
-
-# License
-- This project is distributed under the Apache license version 2.0 (see the LICENSE file in the project root).
-- By submitting a pull request to this project, you agree to license your contribution under the Apache license version 2.0 to this project.
