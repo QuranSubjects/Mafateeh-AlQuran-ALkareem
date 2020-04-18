@@ -195,14 +195,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:focusedByDefault="true"
-
                         android:text="@string/word" />
-
-                    <android.support.design.widget.TabItem
-                        android:id="@+id/verse_tab"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/verse" />
 
                     <android.support.design.widget.TabItem
                         android:id="@+id/sura_tab"

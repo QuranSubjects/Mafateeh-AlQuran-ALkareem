@@ -105,7 +105,7 @@ import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
     ImageView actionSettings;
-    ImageView actionQuran;
+    ImageView actionQuran,actionContactUs;
     LinearLayout quranInstall;
     int lastProgress = 0;
     NumberProgressBar numberProgressBar;
@@ -302,6 +302,7 @@ public class MainActivity extends AppCompatActivity {
         numberProgressBar = findViewById(R.id.number_progress_bar);
         actionSettings = findViewById(R.id.action_help);
         actionQuran = findViewById(R.id.action_quran);
+        actionContactUs = findViewById(R.id.action_contact_us);
         quranInstall = findViewById(R.id.quranInstall);
         floatingTreeButton = findViewById(R.id.floating_tree_button);
         mainProgressBar = findViewById(R.id.main_progress_bar);
@@ -593,6 +594,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        actionContactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_EMAIL, "info@quransubjects.com");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "الموضوع...");
+                intent.putExtra(Intent.EXTRA_TEXT, "نص الموضوع...");
+
+                startActivity(Intent.createChooser(intent, "Send Email"));
+            }
+        });
+
     }
     private void setQuranSearchListener() {
 
@@ -746,6 +760,7 @@ public class MainActivity extends AppCompatActivity {
                             loading.setVisibility(View.GONE);
                             quranSubjectSearchText.setVisibility(View.VISIBLE);
                             actionQuran.setVisibility(View.VISIBLE);
+                            actionContactUs.setVisibility(View.VISIBLE);
                             quranInstall.setVisibility(View.GONE);
                         }
                     });
@@ -1547,17 +1562,17 @@ public class MainActivity extends AppCompatActivity {
         text1.setText(getResources().getString(R.string.word));
         text1.setTypeface(tf);
         searchKindTabs.getTabAt(1).setCustomView(layout1);
-        LinearLayout layout3 = (LinearLayout) LayoutInflater.from(this).inflate(R.layout.custom_tab_with_label, null);
-        TextView text3 = layout3.findViewById(R.id.tab_text);
-        text3.setText(getResources().getString(R.string.verse));
-        text3.setTypeface(tf);
-        layout3.setVisibility(View.GONE);
-        searchKindTabs.getTabAt(2).setCustomView(layout3);
+//        LinearLayout layout3 = (LinearLayout) LayoutInflater.from(this).inflate(R.layout.custom_tab_with_label, null);
+//        TextView text3 = layout3.findViewById(R.id.tab_text);
+//        text3.setText(getResources().getString(R.string.verse));
+//        text3.setTypeface(tf);
+//        layout3.setVisibility(View.GONE);
+//        searchKindTabs.getTabAt(2).setCustomView(layout3);
         LinearLayout layout4 = (LinearLayout) LayoutInflater.from(this).inflate(R.layout.custom_tab_with_label, null);
         TextView text4 = layout4.findViewById(R.id.tab_text);
         text4.setText(getResources().getString(R.string.sura));
         text4.setTypeface(tf);
-        searchKindTabs.getTabAt(3).setCustomView(layout4);
+        searchKindTabs.getTabAt(2).setCustomView(layout4);
 
         TypedValue typedValue = new TypedValue();
 
@@ -1611,6 +1626,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_quran:
+            case R.id.action_contact_us:
             case R.id.action_main:
 
             case R.id.action_help:

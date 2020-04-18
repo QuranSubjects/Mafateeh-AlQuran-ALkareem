@@ -95,4 +95,20 @@ android:onClick="chart"
         android:layout_height="0.5dp"
         android:background="@android:color/black" />
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:gravity="start|center_vertical"
+        android:text="@string/about"
+        android:onClick="about"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black" />
+
 </LinearLayout>

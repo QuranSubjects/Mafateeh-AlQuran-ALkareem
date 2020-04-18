@@ -460,6 +460,7 @@ public class Sura {
                 }
             }
         }
-        return SECTIONNAMES[sect];
+        return Integer.toString(sect);
+        //return SECTIONNAMES[sect];
     }
 }

@@ -897,6 +897,7 @@ noRequest=true;
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_quran:
+            case R.id.action_contact_us:
             case R.id.action_main:
             case R.id.action_help:
             default:

@@ -35,22 +35,22 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int ball_five = 0x7f080029;
-        public static final int ball_four = 0x7f08002a;
-        public static final int ball_one = 0x7f08002b;
-        public static final int ball_three = 0x7f08002c;
-        public static final int ball_two = 0x7f08002d;
+        public static final int ball_five = 0x7f08002b;
+        public static final int ball_four = 0x7f08002c;
+        public static final int ball_one = 0x7f08002d;
+        public static final int ball_three = 0x7f08002e;
+        public static final int ball_two = 0x7f08002f;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int book_loading = 0x7f0a0026;
-        public static final int newton_cradle_loading = 0x7f0a0040;
+        public static final int book_loading = 0x7f0a0027;
+        public static final int newton_cradle_loading = 0x7f0a0041;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0d0024;
+        public static final int app_name = 0x7f0d0025;
     }
     public static final class styleable {
         private styleable() {}

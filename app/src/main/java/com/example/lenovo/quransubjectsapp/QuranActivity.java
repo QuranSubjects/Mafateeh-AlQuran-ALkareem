@@ -33,7 +33,9 @@ public class QuranActivity extends AppCompatActivity {
         }
         ImageView homeButton = findViewById(R.id.action_main);
         ImageView quranImageView = findViewById(R.id.action_quran);
+        ImageView contactUsImageView = findViewById(R.id.action_contact_us);
         quranImageView.setVisibility(View.GONE);
+        contactUsImageView.setVisibility(View.GONE);
 //        quranImageView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

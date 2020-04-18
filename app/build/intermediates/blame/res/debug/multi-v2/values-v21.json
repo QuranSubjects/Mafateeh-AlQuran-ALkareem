@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Apps\\QuranSubjectsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\Android Apps\\Mafateeh-AlQuran-ALkareem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "D:\\Android Apps\\QuranSubjectsApp\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "D:\\Android Apps\\Mafateeh-AlQuran-ALkareem\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",

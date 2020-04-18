@@ -129,6 +129,12 @@ public class SettingsActivity extends AppCompatActivity {
         finish();
     }
 
+    public void about(View view) {
+        Intent intent = new Intent(this,AboutActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     public void chart(View view) {
         if(MainActivity.vos.size()!=0) {
             Intent intent = new Intent(this, ChartActivity.class);

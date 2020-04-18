@@ -893,6 +893,7 @@ drawable history_image
 drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_mail_outline_black
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_manage
@@ -905,6 +906,7 @@ drawable light_circled_label
 drawable list_divider_h
 drawable mafatih_logo
 drawable mafatihcircle
+drawable mail
 drawable more
 drawable navigation_empty_icon
 drawable no_connection
@@ -950,6 +952,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id about_html
 id action0
 id action_bar
 id action_bar_activity_content
@@ -958,6 +961,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_contact_us
 id action_container
 id action_context_bar
 id action_divider
@@ -1249,7 +1253,6 @@ id useLogo
 id verse_num
 id verse_num_in_list
 id verse_page_sura_num
-id verse_tab
 id verse_tafseer_text
 id verse_text_view
 id verses_num
@@ -1302,6 +1305,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_chart
 layout activity_help
 layout activity_main
@@ -1409,6 +1413,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about
 string action_settings
 string alrazi
 string altabari
