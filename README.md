@@ -20,12 +20,14 @@ This distinguished Quranic App is capable of searching the Holy Quran for a spec
 - Constant updating of emerging Quranic topics.
 - Explanation of verses from several interpretations.
 - Free and without internal ads.
+- ... and many other features that are still under development.
 
 #### Try some of these features @ www.moslim.com
 #### For full features download the app from https://play.google.com/store/apps/details?id=com.quran.subjects.app&hl=en
 
 # Contributing
-- Your valuable contributions are highly appreciated.
+- Since this app is an open source project, it's easy for anyone to contribute and help improve the project. 
+- We are open to hear your suggestions, and your valuable contributions are highly appreciated.
 - Please open an issue first to discuss what you would like to change before beginning implementation.
 - Currently, the database is still private, we will not share complete dump. A mini version is ready for contributing.
 - May Allah reward all the awesome Contributors...
