@@ -21,7 +21,8 @@ This distinguished Quranic App is capable of searching the Holy Quran for a spec
 - Explanation of verses from several interpretations.
 - Free and without internal ads.
 
-### Try some of these features @ www.moslim.com
+#### Try some of these features @ www.moslim.com
+#### For full features download the app from https://play.google.com/store/apps/details?id=com.quran.subjects.app&hl=en
 
 # Contributing
 - Your valuable contributions are highly appreciated.
