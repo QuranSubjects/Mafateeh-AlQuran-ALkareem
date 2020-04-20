@@ -29,6 +29,7 @@ This distinguished Quranic App is capable of searching the Holy Quran for a spec
 - Since this app is an open source project, it's easy for anyone to contribute and help improve the project. 
 - We are open to hear your suggestions, and your valuable contributions are highly appreciated.
 - Please open an issue first to discuss what you would like to change before beginning implementation.
+- For developers: You can [![import the API into Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e542ebe3a2aec285cd6e) and check it out.
 - Currently, the database is still private, we will not share complete dump. A mini version is ready for contributing.
 - May Allah reward all the awesome Contributors...
 
