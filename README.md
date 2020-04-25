@@ -6,7 +6,8 @@
 - Arabic: مفاتيح القرآن الكريم - محرك بحث موضوعي للقرآن الكريم  
 
 # Description
-This distinguished Quranic App is capable of searching the Holy Quran for a specific topic even if the title of the topic is not found as a word inside the Quranic text. For more information about this idea please check the following slides @ https://www.slideshare.net/ssuser12a683/ss-167940618?qid=bc3b15bb-28df-45b6-a920-a4b717101a9a&v=&b=&from_search=1 
+This distinguished Quranic App is capable of searching the Holy Quran for a specific topic even if the title of the topic is not found as a word inside the Quranic text.
+For more information about this idea please check the following slides @ https://www.slideshare.net/ssuser12a683/ss-167940618?qid=bc3b15bb-28df-45b6-a920-a4b717101a9a&v=&b=&from_search=1 
 
 # Features
 - A large number of Quranic topics available for research (more than 6,000 topics).
