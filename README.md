@@ -25,7 +25,7 @@
 
 #### Try some of these features @ www.moslim.com
 #### For full features download the app from https://play.google.com/store/apps/details?id=com.quran.subjects.app&hl=en
-#### An iOS version is alse found on the App Store...
+#### An iOS version is also found on the App Store...
 
 # Contributing
 - Since this app is an open source project, it's easy for anyone to contribute and help improve the project. 
