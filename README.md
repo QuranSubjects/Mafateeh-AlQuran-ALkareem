@@ -2,7 +2,7 @@
 ![Logo](Logo.png)
 
 # Project Name
-- Mafateeh-AlQuran-ALkareem - Search Engine for the Holy Quran based 
+- Mafateeh-AlQuran-ALkareem - Search Engine for the Holy Quran.
 - Arabic: مفاتيح القرآن الكريم - محرك بحث موضوعي للقرآن الكريم  
 
 # Description
